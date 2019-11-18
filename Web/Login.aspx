@@ -6,16 +6,27 @@
 <head runat="server">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <title></title>
-    <style type="text/css">
-        .auto-style1 {
-            width: 100%;
-        }
-    </style>
+<style  type ="text/css" >
+    #web_bg{
+  position:fixed;
+  top: 0;
+  left: 0;
+  width:100%;
+  height:100%;
+  min-width: 1000px;
+  z-index:-10;
+  zoom: 1;
+  background-color: #fff;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center 0;
+}
+</style>
 </head>
 <body>
-    <form id="form1" runat="server">
-        <div>
+        <div id="web_bg" style="background-image: url('Image/background.jpg');">
+
         </div>
-    </form>
+        
 </body>
 </html>
